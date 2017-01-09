@@ -17,8 +17,8 @@ mom = clf.predict([[160, 50, 37]])
 dad = clf.predict([[171, 73, 41]])
 
 # predict
-print("sis is a", mom)
-print("bro is a", dad)
+print("mom is a", mom)
+print("dad is a", dad)
 
 # user features and predict
 height = input("your height: ")
