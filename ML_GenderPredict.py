@@ -13,12 +13,12 @@ Y = ['male', 'male', 'female', 'female', 'male', 'male', 'female', 'female', 'fe
 clf = clf.fit(X, Y)
 
 # assign features
-sis = clf.predict([[160, 50, 37]])
-bro = clf.predict([[171, 73, 41]])
+mom = clf.predict([[160, 50, 37]])
+dad = clf.predict([[171, 73, 41]])
 
 # predict
-print("sis is a", sis)
-print("bro is a", bro)
+print("sis is a", mom)
+print("bro is a", dad)
 
 # user features and predict
 height = input("your height: ")
